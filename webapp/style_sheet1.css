@@ -1,0 +1,88 @@
+body{
+	background-image: url('image1.jpg'); 
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding-left: 400px ;
+  
+}
+
+.class1{
+	border:2px solid #ccc;
+	width:800px;	
+}
+
+.class2{
+		padding-left: 150px;
+}
+.class3{
+		padding-left: 300px;
+}
+
+ input[type="text"]{
+	padding:8px;
+	width:70;
+}
+
+input{
+	padding:8px;
+}
+
+select{
+	padding:8px;
+	font-size: 17px ; 
+}
+
+button{
+	padding:8px;
+	font-size: 16px ;
+}
+
+#t01{ 
+	width: 70% ;	
+}
+	
+
